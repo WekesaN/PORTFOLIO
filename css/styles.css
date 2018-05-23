@@ -1,45 +1,97 @@
-h1{
-  color: #609916;
+.boder, .footer2 {
+  border-left: 2.5px solid grey;
+}
+img {
+  border: 35% solid rgb(66, 217, 244);
+  box-shadow: 5px 5px 5px 5px;
+  box-shadow: rgb(66, 217, 244); 
+  width: 50vh;
+  height: 35vh;
   text-align: center;
-  text-decoration: underline;
+  color: rgb(0, 255, 249);
 }
-h2{
-  color: #006098;
-  font-style: oblique;
-  text-decoration: underline;
-}
-h4{
-  color: yellow;
-}
-p a{
-  color: #00ffff;
-}
-body{
-  background-image: url("../images/final.jpeg");
+.footer, .align, .footer1, .footer2, .jumbotron {
   text-align: center;
-  border-left: #e6e6ff 12px;
-  border-right: #e6e6ffff 12px;
-  padding: 8px;
 }
-p{
-  color: yellow;
+ol {
+  list-style: non
 }
-ul li .exam{
-  color: green;
+.color {
+	color: red;
 }
-ul{
-  align-items: center;
-  color: #ccffff;
+.jumbotron {
+	font-family: serif;
+	font-size: 60px;
+	color: rgb(0, 203, 239);
+	background-color: rgb(0, 255, 249);
+}
+body {
+	color: rgb(0, 255, 249);
+}
+h3 {
+	color: rgb(0, 203, 239);
+}
+ul {
+	list-style: none;
+}
+.link {
+	color: rgb(255, 0, 157);
+	text-decoration: underline;
+	cursor: progress;
+}
+h6, {
+	color: rgb(255, 0, 157);
+}
+.header {
+	color: rgb(255, 0, 157);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-li{
-  color: #ccffff;
-  list-style-type: none;
+
+li {
+    float: left;
 }
-.Hobbies{
-  color: #ccffff;
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-h4{
-  color: #006098;
-  text-decoration: underline;
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1
 }
